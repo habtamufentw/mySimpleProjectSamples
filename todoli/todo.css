@@ -1,0 +1,42 @@
+.todo-css,
+.todo-input-all{
+  display: grid;
+  grid-template-columns: 200px 150px 100px;
+  column-gap: 10px;
+  row-gap: 10px;
+  align-items: center;
+  
+}
+.todo-name-input{
+  font-size: 18px;
+  padding: 10px;
+}
+.todo-input-all{
+  margin-bottom: 10px;
+  align-items: stretch;
+}
+.add-btn{
+  background: green;
+  font-size: 17px;
+  color: white;
+  padding-left: 13px;
+  padding-right: 13px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.delet-btn{
+  background: red;
+  font-size: 17px;
+  color: white;
+  padding-left: 13px;
+  padding-right: 13px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  
+}
